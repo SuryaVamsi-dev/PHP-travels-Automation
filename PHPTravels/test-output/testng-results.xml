@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71350" started-at="2020-10-14T06:32:59Z" finished-at="2020-10-14T06:34:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71350" started-at="2020-10-14T06:32:59Z" finished-at="2020-10-14T06:34:11Z">
+      <class name="TestCases.Test1">
+        <test-method status="PASS" signature="Tes(java.util.Hashtable)[pri:0, instance:TestCases.Test1@782663d3]" name="Tes" duration-ms="36949" started-at="2020-10-14T06:33:00Z" data-provider="GetData" finished-at="2020-10-14T06:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{outCalender=11/11/2021, mobile=123456789, Place=Dubai, stars=5, Lastname=Vamsi, Firstname=Surya, gmail=signup@gmail.com, inCalender=3/11/2020, pwd=asdfghjkl, currency=EUR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tes -->
+        <test-method status="PASS" signature="FlushReports()[pri:0, instance:TestCases.Test1@782663d3]" name="FlushReports" is-config="true" duration-ms="388" started-at="2020-10-14T06:33:37Z" finished-at="2020-10-14T06:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlushReports -->
+        <test-method status="PASS" signature="Tes(java.util.Hashtable)[pri:0, instance:TestCases.Test1@782663d3]" name="Tes" duration-ms="32964" started-at="2020-10-14T06:33:38Z" data-provider="GetData" finished-at="2020-10-14T06:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{outCalender=21/11/2020, mobile=9.87456321E9, Place=London, stars=3, Lastname=surya, Firstname=vamsi, gmail=again@gmail.com, inCalender=6/11/2020, pwd=qwertyuiop, currency=EUR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tes -->
+        <test-method status="PASS" signature="FlushReports()[pri:0, instance:TestCases.Test1@782663d3]" name="FlushReports" is-config="true" duration-ms="125" started-at="2020-10-14T06:34:11Z" finished-at="2020-10-14T06:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlushReports -->
+      </class> <!-- TestCases.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
